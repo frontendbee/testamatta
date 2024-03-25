@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+
+
+<body class="bg-[#353535] w-screen h-screen text-white">
+  <div class="bg-[#353535] w-screen h-screen snap-y snap-mandatory overflow-scroll">
+    <div id="navbar"
+      class="top-0 left-0 z-10 flex flex-row items-center justify-between w-full h-24 bg-[#353535] xl:flex-row-reverse fixed xl:bg-transparent">
+
+
+      <div id="navbarWindow"
+        class="z-0 absolute w-full h-screen -top-[900px] bg-[#353535] duration-500 xl:left-0 xl:top-0  xl:w-[300px] xl:bg-transparent">
+        <ul class="flex flex-col h-full py-64 mx-5 justify-evenly xl:justify-between xl:pl-12">
+          <li
+            class="text-center duration-500 transform md:hover:scale-150 xl:hover:translate-x-14 xl:border xl:border-[#d99d5c] xl:text-center">
+            <a href="#home" class="text-2xl uppercase font-protest  text-[#d99d5c] linkMenu">Home</a></li>
+          <li
+            class="text-center duration-500 transform md:hover:scale-150 xl:hover:translate-x-14 xl:border xl:border-[#d99d5c] xl:text-center">
+            <a href="#orari" class="text-2xl uppercase font-protest  text-[#d99d5c] linkMenu">Orari</a></li>
+          <li
+            class="text-center duration-500 transform md:hover:scale-150 xl:hover:translate-x-14 xl:border xl:border-[#d99d5c] xl:text-center">
+            <a href="#chisiamo" class="text-2xl uppercase font-protest  text-[#d99d5c] linkMenu">Chi siamo</a></li>
+          <li
+            class="text-center duration-500 transform md:hover:scale-150 xl:hover:translate-x-14 xl:border xl:border-[#d99d5c] xl:text-center">
+            <a href="#galleria" class="text-2xl uppercase font-protest  text-[#d99d5c] linkMenu">Galleria</a></li>
+          <li
+            class="text-center duration-500 transform md:hover:scale-150 xl:hover:translate-x-14 xl:border xl:border-[#d99d5c] xl:text-center">
+            <a href="#contatti" class="text-2xl uppercase font-protest  text-[#d99d5c] linkMenu">Contatti</a></li>
+          <li
+            class="text-center duration-500 transform md:hover:scale-150 xl:hover:translate-x-14 xl:border xl:border-[#d99d5c] xl:text-center">
+            <a href="#dove" class="text-2xl uppercase font-protest  text-[#d99d5c] linkMenu">Dove siamo</a></li>
+        </ul>
+      </div>
+
+      <div id="navbarLogo"
+        class="z-20 flex items-center justify-center h-0 mt-8 w-36 bg-[#353535] mx-auto xl:mx-0 xl:absolute xl:left-24 xl:top-16">
+        <img src="../img/logo barber shop.png" alt="" srcset="">
+      </div>
+
+      <div id="navbarHamburger"
+        class="absolute flex flex-col items-center justify-center w-16 h-12 gap-2 right-5 xl:hidden">
+        <div class="relative w-10 h-1 transition-all duration-500 bg-[#D99D5C]"></div>
+        <div class="relative w-10 h-1 transition-all duration-500 bg-[#D99D5C]"></div>
+        <div class="relative w-10 h-1 transition-all duration-500 bg-[#D99D5C]"></div>
+      </div>
+    </div>
+
+
+
+    <div id="home" class="relative w-screen h-screen bg-[#353535] snap-start">
+      <!-- div da cancellare se basta la hero  -->
+      <div id="heroGallery" class="flex content-center w-full h-full">
+
+        <div class="flex w-full h-full">
+          <!-- <div class="flex flex-col justify-around h-full gap-3">
+            <img src="../img/sfondo4.jpg" alt="" srcset="" class="opacity-50 grayscale">
+            <img src="../img/sfondo2.jpg" alt="" srcset="" class="opacity-50 grayscale">
+            <img src="../img/sfondo3.jpg" alt="" srcset="" class="opacity-50 grayscale">
+          </div> -->
+
+          <div class="flex flex-row w-full h-full">
+            <img src="../img/sfondo1.jpg" alt="" srcset="" class="object-cover w-1/3 opacity-50 grayscale">
+            <img src="../img/sfondo8.jpg" alt="" srcset="" class="object-cover w-1/3 opacity-50 grayscale">
+            <img src="../img/sfondo9.jpg" alt="" srcset="" class="object-cover w-1/3 opacity-50 grayscale">
+          </div>
+
+          <!-- <div class="flex flex-col justify-center h-full">
+            <img src="../img/sfondo7.jpg" alt="" srcset="" class="opacity-50 grayscale">
+            <img src="../img/sfondo5.jpg" alt="" srcset="" class="opacity-50 grayscale">
+            <img src="../img/sfondo6.jpg" alt="" srcset="" class="opacity-50 grayscale">
+          </div> -->
+        </div>
+        <div id=""
+          class="absolute flex flex-col content-center justify-center w-full h-full mx-auto my-auto overflow-scroll bg-transparent">
+          <h1 class="text-6xl uppercase text-[#d99d5c] text-center">testa matta</h1>
+          <p class="text-2xl text-white text-center max-w-[400px] mx-auto">Dove tradizione e stile si incontrano in
+            perfetta armonia</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="orari" class="flex flex-col content-center justify-center w-screen h-screen gap-12 snap-start">
+      <h1 class="text-3xl text-center  text-[#D99D5C]">ORARI</h1>
+      <div class="flex flex-row content-center justify-center w-full h-1/2">
+        <div class="sm:w-1/2 w-1/3  max-w-[250px]">
+          <ul class="flex flex-col h-full sm:pl-8 al-ign-middle content-evenly justify-evenly">
+            <li class="text-xl uppercase sm:text-2xl lun">Lunedì</li>
+            <li class="text-xl uppercase sm:text-2xl mar">Martedì</li>
+            <li class="text-xl uppercase sm:text-2xl mer">Mercoledì</li>
+            <li class="text-xl uppercase sm:text-2xl gio">Giovedì</li>
+            <li class="text-xl uppercase sm:text-2xl ven">Venerdì</li>
+            <li class="text-xl uppercase sm:text-2xl sab">Sabato</li>
+            <li class="text-xl uppercase sm:text-2xl dom">Domenica</li>
+          </ul>
+        </div>
+        <div class="sm:w-1/2  max-w-[250px]">
+          <ul class="flex flex-col h-full text-left align-middle content-evenly justify-evenly">
+            <li class="text-xl uppercase lun">Chiuso</li>
+            <li class="text-xl mar">9:00-14:00 / 15:00-19:00</li>
+            <li class="text-xl mer">9:00-14:00 / 15:00-19:00</li>
+            <li class="text-xl gio">9:00-14:00 / 15:00-19:00</li>
+            <li class="text-xl ven">9:00-14:00 / 15:00-19:00</li>
+            <li class="text-xl sab">9:00-14:00 / 15:00-19:00</li>
+            <li class="text-xl uppercase dom">Chiuso</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="chisiamo"
+      class="flex flex-col content-center justify-center w-screen h-screen gap-12 bg-[#353535] snap-start snap-mandatory">
+      <h1 class="text-3xl text-center uppercase text-[#D99D5C]">su di noi</h1>
+      <p class="max-w-[500px] mx-auto px-7 text-justify"><span class="font-semibold text-[#D99D5C]">Nel nostro
+          studio</span>, il taglio di capelli e la rasatura vanno oltre il semplice servizio: rappresentano <span
+          class="font-semibold text-[#D99D5C]">un'esperienza di cura e passione autentica</span>. Ogni movimento è
+        eseguito con <span class="font-semibold text-[#D99D5C]">precisione e dedizione</span>, mentre ci sforziamo di
+        creare non solo un nuovo look, ma anche un legame duraturo con ogni cliente. Siamo qui per offrirti non solo un
+        taglio impeccabile, ma anche un <span class="font-semibold text-[#D99D5C]">momento di relax e di
+          benessere</span> in un ambiente accogliente e familiare.</p>
+    </div>
+
+    <div id="galleria" class="h-screen overflow-hidden snap-start">
+      <div id="galleriaContainer" class="flex flex-row h-full gap-4 overflow-x-auto snap snap-x snap-mandatory">
+        <div id="galleriaScheda1"
+          class="flex flex-col items-center content-center justify-center h-full gap-4 schede snap-start">
+          <div class="w-screen images h-2/3 grayscale"
+            style="background-image: url('../img/capelli classico.jpg'); background-repeat: no-repeat; background-position: center;">
+          </div>
+          <p class="w-[300px] text-justify"><span class="font-semibold text-[#D99D5C]">Il nostro taglio di capelli
+              classico</span> è un'arte che esprime la tua <span class="font-semibold text-[#D99D5C]">personalità</span>
+            e
+            riflette <span class="font-semibold text-[#D99D5C]">il tuo stile unico</span>. Con la nostra esperienza e la
+            <span class="font-semibold text-[#D99D5C]">nostra attenzione ai dettagli</span>, ti offriamo un taglio su
+            misura
+            che ti farà sentire <span class="font-semibold text-[#D99D5C]">sicuro e alla moda</span> in qualsiasi
+            occasione.
+          </p>
+        </div>
+        <div id="galleriaScheda2"
+          class="flex flex-col items-center content-center justify-center h-full gap-4 schede snap-start">
+          <div class="w-screen images h-2/3 grayscale"
+            style="background-image: url('../img/rasatura tradizionale.jpg'); background-repeat: no-repeat; background-position: center;">
+          </div>
+          <p class="w-[300px] text-justify"><span class="font-semibold text-[#D99D5C]">La nostra rasatura
+              tradizionale</span> è un rituale di <span class="font-semibold text-[#D99D5C]">cura e raffinatezza</span>.
+            Utilizzando
+            tecniche antiche e <span class="font-semibold text-[#D99D5C]">strumenti di alta qualità</span>, ti offriamo
+            una rasatura delicata e precisa che lascia la tua
+            <span class="font-semibold text-[#D99D5C]">pele liscia e fresca</span>, ripristinando il fascino classico
+            dell'uomo moderno.
+          </p>
+        </div>
+        <div id="galleriaScheda3"
+          class="flex flex-col items-center content-center justify-center h-full gap-4 schede snap-start">
+          <div class="w-screen images h-2/3 grayscale"
+            style="background-image: url('../img/barba.jpg'); background-repeat: no-repeat; background-position: center;">
+          </div>
+          <p class="w-[300px] text-justify"><span class="font-semibold text-[#D99D5C]">La tua barba è un'espressione del
+              tuo stile</span> e della tua personalità. Con i
+            nostri <span class="font-semibold text-[#D99D5C]">trattamenti specializzati per la barba</span>, ti offriamo
+            cure idratanti, modellanti e rifinite per mantenere
+            la tua <span class="font-semibold text-[#D99D5C]">barba sana, morbida e ben curata</span>, evidenziando la
+            tua virilità con classe e charme.</p>
+        </div>
+        <div id="galleriaScheda4"
+          class="flex flex-col items-center content-center justify-center h-full gap-4 schede snap-start">
+          <div class="w-screen images h-2/3 grayscale"
+            style="background-image: url('../img/cuoio capelluto.jpg'); background-repeat: no-repeat; background-position: center;">
+          </div>
+          <p class="w-[300px] text-justify"><span class="font-semibold text-[#D99D5C]">Un cuoio capelluto sano</span> è
+            la base per <span class="font-semibold text-[#D99D5C]">capelli forti e lucenti</span>. Con i nostri
+            trattamenti specializzati, <span class="font-semibold text-[#D99D5C]">ti offriamo cure rigeneranti e
+              nutrienti</span> per il cuoio capelluto, che favoriscono la
+            crescita dei capelli e <span class="font-semibold text-[#D99D5C]">riducono secchezza e desquamazione</span>,
+            garantendo una chioma radiosa e
+            in salute.</p>
+        </div>
+        <div id="galleriaScheda5"
+          class="flex flex-col items-center content-center justify-center h-full gap-4 schede snap-start ">
+          <div class="w-screen images h-2/3 grayscale "
+            style="background-image: url('../img/eventi speciali.jpg'); background-repeat: no-repeat; background-position: center;">
+          </div>
+          <p class="w-[300px] text-justify"><span class="font-semibold text-[#D99D5C]">Per i momenti più importanti
+              della tua vita</span>, il nostro taglio e stile per eventi
+            speciali ti farà brillare. Con la nostra <span class="font-semibold text-[#D99D5C]">attenzione ai
+              dettagli</span> e alla tua visione personale, ti offriamo un
+            look impeccabile che ti farà sentire <span class="font-semibold text-[#D99D5C]">sicuro e straordinario in
+              ogni occasione</span>, che sia un matrimonio, una cena
+            elegante o una serata importante.</p>
+        </div>
+      </div>
+      <div id="galleriaNavigatore"
+        class="relative flex justify-between w-full pb-6 px-14 bottom-10 sm:bottom-64 sm:justify-evenly">
+        <div class="left-button">
+          <svg class="rounded-full border border-[#d99d5c]" style="transform: scale(1.5);"
+            xmlns='http://www.w3.org/2000/svg' width='24px' height='24px' viewBox="0 0 24 24">
+            <title>left_fill</title>
+            <g id="left_fill" fill='none' fill-rule='evenodd'>
+              <path
+                d='M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z' />
+              <path fill='#d99d5c'
+                d='M7.94 13.06a1.5 1.5 0 0 1 0-2.12l5.656-5.658a1.5 1.5 0 1 1 2.121 2.122L11.122 12l4.596 4.596a1.5 1.5 0 1 1-2.12 2.122L7.938 13.06Z' />
+            </g>
+          </svg>
+
+        </div>
+
+        <div class="right-button">
+          <svg class="rounded-full border border-[#d99d5c]" style="transform: scale(1.5);"
+            xmlns='http://www.w3.org/2000/svg' width='24px' height='24px' viewBox="0 0 24 24">
+            <title>right_fill</title>
+            <g id="right_fill" fill='none' fill-rule='evenodd'>
+              <path
+                d='M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z' />
+              <path fill='#d99d5c'
+                d='M16.06 10.94a1.5 1.5 0 0 1 0 2.12l-5.656 5.658a1.5 1.5 0 1 1-2.121-2.122L12.879 12 8.283 7.404a1.5 1.5 0 0 1 2.12-2.122l5.658 5.657Z' />
+            </g>
+          </svg>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div id="contatti" class="flex items-center justify-center w-screen h-screen snap-start">
+      <div class="w-3/4 max-w-md contattiContainer ">
+        <h2 class="my-5 text-2xl font-bold text-center uppercase font-protest text-[#D99D5C]">Contattaci!</h2>
+        <h3 class="my-5 text-xl text-center font-protest text-[#D99D5C]">(Ti ricontatteremo il prima possibile!)</h2>
+          <form action="https://formsubmit.co/your@email.com" method="POST"
+            class="flex flex-col max-w-md gap-5 p-6 mx-auto my-3 mb-4">
+            <input type="text" name="surname" placeholder="   Il tuo nome" required
+              class="bg-[#353535] border border-[#d99d5c] placeholder-white">
+            <input type="date" name="date" placeholder="   Quando" required
+              class="bg-[#353535] border border-[#d99d5c] text-white pl-3">
+            <input type="time" name="time" placeholder="   Orario preferito" required
+              class="bg-[#353535] border border-[#d99d5c] text-white pl-3">
+
+            <input type="tel" name="tel" placeholder="   Numero di telefono" required
+              class="bg-[#353535] border border-[#d99d5c] placeholder-white">
+            <input type="email" name="email" placeholder="   E-mail" required
+              class="bg-[#353535] border border-[#d99d5c] placeholder-white">
+            <button type="submit"
+              class="w-20 m-auto mb-3 text-lg uppercase rounded-md hover:underline bg-[#d99d5c]">Invia</button>
+          </form>
+      </div>
+    </div>
+
+    <div id="dove" class="h-screen snap-start xl:flex xl:items-center">
+      <div
+        class="flex flex-col justify-center w-full h-full  xl:flex-row-reverse xl:ml-[300px] xl:justify-around xl:items-center xl:mr-10">
+
+        <div class="w-full my-3 map">
+          <iframe class="w-full xl:max-w-[800px] xl:h-[600px]"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5762.470534350898!2d11.253797414147341!3d43.76797490911504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a5401d43ea657%3A0x4ccf3137f3d1c006!2sFontana%20del%20Porcellino!5e0!3m2!1sit!2sit!4v1706085332009!5m2!1sit!2sit"
+            width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="xl:w-[800px]">
+          <h2 class="my-4 text-2xl font-bold text-center uppercase font-protest text-[#d99d5c]">Vieni a trovarci!</h2>
+          <div class="mx-auto my-3 mb-4 w-max dove">
+            <h4><span class="text-[#d99d5c]">Testa Matta</span></h4>
+            <p class="">Vicolo del sante. 33c</p>
+            <p class="">1234 Porto Nuovo, PA</p>
+            <a class="" href="tel:+">066 12343678</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <footer class="relative bottom-0 flex flex-col items-center justify-center w-full gap-3 mt-3 snap-start">
+      <div class="flex justify-center h-auto gap-3 mt-6 social_icons">
+        <img src="../img/facebook-round-color-icon.svg" alt="" class="h-10 ">
+        <img src="../img/twitter-color-icon.svg" alt="" class="h-10 ">
+        <img src="../img/ig-instagram-icon.svg" alt="" class="h-10 ">
+        <img src="../img/tiktok-color-icon.svg" alt="" class="h-10 ">
+        <img src="../img/threads-app-icon.svg" alt="" class="h-10 ">
+      </div>
+      <p>©2024 Testa Matta. Tutti i diritti riservati.</p>
+      <p class="mb-6">P.IVA 123456asd78910</p>
+    </footer>
+
+  </div>
+</body>
+
+</html>
